@@ -1,0 +1,39 @@
+{
+  "videos": [
+    {
+      "subject": "Tamil",
+      "title": "Tamil Grammar Lesson 1",
+      "url": "https://www.youtube.com/embed/tZAQYeyZH0k"
+    },
+    {
+      "subject": "Science",
+      "title": "Photosynthesis Explained",
+      "url": "https://www.youtube.com/embed/M7lc1UVf-VE"
+    }
+  ],
+  "notes": [
+    {
+      "subject": "English",
+      "title": "English Basics",
+      "content": "Nouns are naming words."
+    },
+    {
+      "subject": "Tamil",
+      "title": "Thirukkural Note",
+      "content": "Karka Kasadara..."
+    }
+  ],
+  "quizzes": [
+    {
+  "subject": "Tamil",
+  "type": "quiz",
+  "title": "வினா எண் 1",
+  "content_or_url": "வினாவின் விவரங்கள்",
+  "option1": "AAA",
+  "option2": "BBB",
+  "option3": "CCC",
+  "option4": "DDD",
+  "answer": "B"
+}
+  ]
+}
