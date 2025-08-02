@@ -53,3 +53,12 @@ quiz-block {
   border-radius: 8px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
+quotes {
+    margin-top: 40px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #12eeee;
+    font-size: 16px;
+    line-height: 1.8;
+    animation: fadeIn 2s ease-in-out;
+}

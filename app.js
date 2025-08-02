@@ -84,4 +84,16 @@ function checkAnswer(index, correctAnswer) {
     result.innerHTML = `❌ Wrong. Correct answer: <strong>${correctAnswer}</strong>`;
     result.style.color = "red";
   }
+  
 }
+// 🔄 Auto-refresh every 5 minutes (300000 ms)
+setInterval(() => {
+  console.log("Refreshing data from Google Sheet...");
+  fetchData(); // Replace with your real function name if different
+}, 300000); // You can also try 60000 for 1-minute refresh
+
+// Automatically refresh data every 60 seconds (60000 ms)
+setInterval(() => {
+  console.log("Auto-refresh triggered");
+  fetchData(); // or loadContent()
+}, 60000); // Change 60000 to 30000 for 30 seconds, etc.
