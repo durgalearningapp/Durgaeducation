@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .subject-container {
   display: flex;
   flex-direction: column;
@@ -61,4 +62,60 @@ quotes {
     font-size: 16px;
     line-height: 1.8;
     animation: fadeIn 2s ease-in-out;
+=======
+.subject-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.subject-btn {
+  font-family: Cambria, serif;
+  background-color: #6a5acd;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  width: 60%;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.subject-btn:hover {
+  background-color: #483d8b;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.nav-buttons a {
+  text-decoration: none;
+  font-family: Cambria, serif;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1em;
+  background-color: #20b2aa;
+  color: white;
+  transition: 0.3s;
+}
+
+.nav-buttons a:hover {
+  background-color: #16817a;
+}
+quiz-block {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+>>>>>>> b0b19ea1a2cdeb978b49a4c6b90a74d551f867af
 }
